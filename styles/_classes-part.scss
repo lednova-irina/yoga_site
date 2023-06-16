@@ -1,0 +1,23 @@
+@import "variables";
+
+.classes-part {
+  &-description {
+    font-family: "FREESCPT", sans-serif;
+    color: $grey-dark;
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  h2 {
+    color: $purple-dark;
+  }
+
+  @media (max-width: 768px) {
+    img,
+    .card {
+      border-radius: 3%;
+    }
+  }
+}

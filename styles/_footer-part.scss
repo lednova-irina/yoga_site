@@ -1,0 +1,21 @@
+@import "variables";
+
+.footer-part {
+  background-color: $purple-primary;
+  color: $white-primary;
+
+  &-icon {
+    font-family: "IcoMoon";
+    width: 50px;
+  }
+
+  &-copyright {
+    background-color: $purple-dark;
+    color: $grey-light;
+  }
+
+  @font-face {
+    font-family: "IcoMoon";
+    src: url("../../assets/icons/fonts/icomoon.ttf") format("truetype");
+  }
+}

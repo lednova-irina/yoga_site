@@ -1,0 +1,43 @@
+@import "variables";
+
+.about_us-part {
+  #about_us {
+    display: none;
+  }
+
+  h3 {
+    color: $purple-primary;
+  }
+
+  p {
+    color: $grey-dark;
+  }
+
+  .carousel {
+    &-control {
+      &-prev {
+        position: absolute !important;
+        left: -8% !important;
+
+        &-icon {
+          width: 70% !important;
+          height: 20% !important;
+          background-color: $white-primary;
+          background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235560c8'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>") !important;
+        }
+      }
+      &-next {
+        position: absolute !important;
+        right: -8% !important;
+
+        &-icon {
+          width: 70% !important;
+          height: 20% !important;
+          background-color: $white-primary;
+          background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235560c8'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>") !important;
+          rotate: 180deg;
+        }
+      }
+    }
+  }
+}

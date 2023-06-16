@@ -1,0 +1,30 @@
+@import "variables";
+@import "header-part";
+@import "trial_class-part";
+@import "classes-part";
+@import "gallery-part";
+@import "about_us-part";
+@import "benefits-part";
+@import "shop-part";
+@import "footer-part";
+
+main {
+  .btn-up {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 15;
+    right: 5%;
+    bottom: 5%;
+    background-color: $purple-primary;
+    border-radius: 50%;
+    border: 2px solid $white-primary;
+    content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+    rotate: 90deg;
+
+    &:hover {
+      background-color: $purple-dark;
+      border: 2px solid $grey-light;
+    }
+  }
+}

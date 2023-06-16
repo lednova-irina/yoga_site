@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./assets/fonts/FREESCPT.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header-part">
+      <a id="header"></a>
+      <div class="row m-0 p-4 d-flex justify-content-center align-items-center">
+        <div class="logo col-md-6">
+          <img src="./assets/images/logo.png" alt="logo" />
+        </div>
+
+        <div class="navigation col-md-6 p-0">
+          <nav class="full-menu">
+            <ul
+              class="navigation d-flex justify-content-around align-middle flex-md-wrap p-0 m-0"
+            >
+              <li class="navigation_item px-2">
+                <a href="#about_us" class="nav-link fs-5"> About us</a>
+              </li>
+              <li class="navigation_item px-2">
+                <a href="#reservation" class="nav-link fs-5"> Reservation</a>
+              </li>
+              <li class="navigation_item px-2">
+                <a href="#programs" class="nav-link fs-5">Programs</a>
+              </li>
+              <li class="navigation_item px-2">
+                <a href="#gallery" class="nav-link fs-5"> Gallery</a>
+              </li>
+              <li class="navigation_item px-2">
+                <a href="#benefits" class="nav-link fs-5"> Benefits</a>
+              </li>
+              <li class="navigation_item px-2">
+                <a href="#shop" class="nav-link fs-5"> Shop </a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="hamburger-menu">
+            <input id="toggle" type="checkbox" />
+            <label for="toggle" class="hamburger-menu-label">
+              <div class="top-bun"></div>
+              <div class="meat"></div>
+              <div class="bottom-bun"></div>
+            </label>
+
+            <ul class="hamburger-menu-box">
+              <li class="hamburger-menu-box-item my-3">
+                <a href="#about_us">About us</a>
+              </li>
+              <li class="hamburger-menu-box-item my-3">
+                <a href="#reservation">Reservation</a>
+              </li>
+              <li class="hamburger-menu-box-item my-3">
+                <a href="#programs">Programs</a>
+              </li>
+              <li class="hamburger-menu-box-item my-3">
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li class="hamburger-menu-box-item my-3">
+                <a href="#benefits">Benefits</a>
+              </li>
+              <li class="hamburger-menu-box-item my-3">
+                <a href="#shop">Shop</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <a
+      href="#header "
+      class="icon-up btn btn-primary btn-up shadow"
+      ></a
+    >
+      <div class="trial_class-part row g-0 flex-wrap">
+        <div
+          class="trial_class-part-container col-md-6 d-flex align-items-center justify-content-end"
+        >
+          <form class="trial_class-part-form mx-5 my-4">
+            <a id="reservation"></a>
+            <fieldset class="trial_class-part-form-fieldset p-4">
+              <legend class="mb-3 text-uppercase fs-2">Trial Class</legend>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  id="your_name"
+                  class="form-control py-3 bg-secondary bg-light border-0"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  id="your_phone"
+                  class="form-control py-3 bg-secondary bg-light border-0"
+                  placeholder="Enter your phone"
+                />
+              </div>
+              <div class="mb-4">
+                <select
+                  id="disabledSelect"
+                  class="form-select py-3 bg-secondary bg-light border-0"
+                >
+                  <option value="" hidden>Choose your class</option>
+                  <option value="class1">Yoga for helth</option>
+                  <option value="class2">Yoga for lose weight</option>
+                  <option value="class3">Yoga for children</option>
+                  <option value="class1">Yoga for elderly</option>
+                </select>
+              </div>
+              <div class="my-4 d-flex justify-content-end">
+                <button class="button btn btn-primary shadow fw-bold">
+                  Try it
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div
+          class="trial_class-part-text col-md-6 d-flex flex-column justify-content-center align-items-start"
+        >
+          <div>
+            <h2 class="mb-4 ms-0 fs-1 fw-bold lh-base">
+              JUST BALANCE YOUR MIND & BODY
+            </h2>
+            <p class="ms-0 fs-2 lh-base">
+              Create the healthy living <br />
+              for yourself
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="classes-part row g-0 d-flex p-5 justify-content-center">
+        <a id="programs"></a>
+        <h2 class="text-center">YOGA FEATURE PROGRAM</h2>
+        <p class="classes-part-description text-center fs-1">Our Classes</p>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="p-2">
+            <div class="card shadow border-0 mb-1 g-0">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="./assets/images/img-01.jpg"
+                    class="rounded-start h-100 w-100"
+                    alt="card yoga for health"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body w-100">
+                    <h5 class="card-title py-2">YOGA FOR HEALTH</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Sit nulla, nostrum consequatur magni unde sint consectetur
+                      tempora perferendis. Quos non fugiat repudiandae, hic
+                      illum, magnam odio mollitia voluptatibus eveniet et sunt
+                      ratione! Alias, beatae deserunt.
+                    </p>
+                    <p class="card-text mb-2">
+                      <small class="text-muted">Ashtanga-Hatha</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <div class="card shadow border-0 mb-1 g-0">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="./assets/images/img-02.jpg"
+                    class="rounded-start h-100 w-100"
+                    alt="card yoga for lose weight"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body w-100">
+                    <h5 class="card-title py-2">YOGA FOR LOSE WEIGHT</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Sit nulla, nostrum consequatur magni unde sint consectetur
+                      tempora perferendis. Quos non fugiat repudiandae, hic
+                      illum, magnam odio mollitia voluptatibus eveniet et sunt
+                      ratione! Alias, beatae deserunt.
+                    </p>
+                    <p class="card-text mb-2">
+                      <small class="text-muted">Ashtanga-Hatha</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <div class="card shadow border-0 mb-1 g-0">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="./assets/images/img-03.jpg"
+                    class="img-fluid rounded-start h-100 w-100"
+                    alt="card yoga for children"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body w-100">
+                    <h5 class="card-title py-2">YOGA FOR CHILDREN</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Sit nulla, nostrum consequatur magni unde sint consectetur
+                      tempora perferendis. Quos non fugiat repudiandae, hic
+                      illum, magnam odio mollitia voluptatibus eveniet et sunt
+                      ratione! Alias, beatae deserunt.
+                    </p>
+                    <p class="card-text mb-2">
+                      <small class="text-muted">Ashtanga-Hatha</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <div class="card shadow border-0 mb-1 g-0">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="./assets/images/img-04.jpg"
+                    class="rounded-start h-100 w-100"
+                    alt="cardyoga for elderly"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body w-100">
+                    <h5 class="card-title flex-grow-1 py-2">
+                      YOGA FOR ELDERLY
+                    </h5>
+                    <p class="card-text flex-grow-1">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Sit nulla, nostrum consequatur magni unde sint consectetur
+                      tempora perferendis. Quos non fugiat repudiandae, hic
+                      illum, magnam odio mollitia voluptatibus eveniet et sunt
+                      ratione! Alias, beatae deserunt.
+                    </p>
+                    <p class="card-text mb-2">
+                      <small class="text-muted">Ashtanga-Hatha</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-part row m-0 g-0">
+        <a id="gallery"></a>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 g-0">
+          <div class="gallery-part-img-hover">
+            <i class="fa fa-search"></i>
+            <a href="./images/img-05.jpg" target="_blank">
+              <img src="./assets/images/img-05.jpg" alt="our_photo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 g-0">
+          <div class="gallery-part-img-hover">
+            <i class="fa fa-search"></i>
+            <a href="./images/img-06.jpg" target="_blank">
+              <img src="./assets/images/img-06.jpg" alt="our_photo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 g-0">
+          <div class="gallery-part-img-hover">
+            <i class="fa fa-search"></i>
+            <a href="./images/img-07.jpg" target="_blank">
+              <img src="./assets/images/img-07.jpg" alt="our_photo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 g-0">
+          <div class="gallery-part-img-hover">
+            <i class="fa fa-search"></i>
+
+            <a href="./images/img-08.jpg" target="_blank">
+              <img src="./assets/images/img-08.jpg" alt="our_photo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 g-0">
+          <div class="gallery-part-img-hover">
+            <i class="fa fa-search"></i>
+
+            <a href="./images/img-09.jpg" target="_blank">
+              <img src="./assets/images/img-09.jpg" alt="our_photo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 g-0">
+          <div class="gallery-part-img-hover">
+            <i class="fa fa-search"></i>
+
+            <a href="./images/img-10.jpg" target="_blank">
+              <img src="./assets/images/img-10.jpg" alt="our_photo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 g-0">
+          <div class="gallery-part-img-hover">
+            <i class="fa fa-search"></i>
+
+            <a href="./images/img-11.jpg" target="_blank">
+              <img src="./assets/images/img-11.jpg" alt="our_photo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 g-0">
+          <div class="gallery-part-img-hover">
+            <i class="fa fa-search"></i>
+            <a href="./images/img-12.jpg" target="_blank">
+              <img src="./assets/images/img-12.jpg" alt="our_photo" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="about_us-part row p-5 g-0">
+        <a id="about_us"></a>
+        <div class="col-md-6 pe-3">
+          <h3 class="title">ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            similique repudiandae hic, aut, et laboriosam eius vitae
+            perspiciatis excepturi iusto mollitia. Soluta cumque repellat omnis
+            eveniet nihil perferendis numquam asperiores quaerat ab vero ipsa
+            voluptatem earum neque consequatur, eius cum dolores illo ipsam et?
+            Beatae et voluptates neque ea fugit?
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div id="carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/images/img-13.jpg"
+                  class="d-block w-100"
+                  alt="images_us"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/img-13.jpg"
+                  class="d-block w-100"
+                  alt="images_us"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carousel"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon shadow rounded-circle">
+                <span class="arrow-left"></span>
+              </span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carousel"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon shadow rounded-circle">
+                <span class="arrow-right"></span>
+              </span>
+              <span class="next visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="benefits-part row justify-content-center align-items-center g-0"
+      >
+        <a id="benefits"></a>
+        <div class="pt-4 row g-0">
+          <div
+            class="card py-2 col-lg-3 col-sm-6 bg-transparent border-0 justify-content-center align-items-center"
+          >
+            <img
+              src="./assets/images/ico-01.png"
+              alt="improved overall health"
+              class="pt-3 pb-3"
+            />
+            <div class="card-body text-white text-center w-100">
+              <div class="card-title">
+                <h5>IMPROVED OVERALL HEALTH</h5>
+              </div>
+              <p class="card-text">
+                Explicabo aliquam natus adipisci et accusamus? Culpa laudantium
+                maxime et, iure, voluptatum odio aliquid quas?
+              </p>
+            </div>
+          </div>
+          <div
+            class="card py-2 col-lg-3 col-sm-6 bg-transparent border-0 justify-content-center align-items-center"
+          >
+            <img
+              src="./assets/images/ico-02.png"
+              alt=" increased concentration"
+              class="p-2"
+            />
+            <div class="card-body text-center text-white w-100">
+              <div class="card-title">
+                <h5>INCREASED CONCENTRATION</h5>
+              </div>
+              <p class="card-text">
+                Explicabo aliquam natus adipisci et accusamus? Culpa laudantium
+                maxime et, iure, voluptatum odio aliquid quas?
+              </p>
+            </div>
+          </div>
+          <div
+            class="card py-2 col-lg-3 col-sm-6 bg-transparent border-0 justify-content-center align-items-center"
+          >
+            <img
+              src="./assets/images/ico-03.png"
+              alt="balance your mind"
+              class="p-2"
+            />
+            <div class="card-body text-center text-white w-100">
+              <div class="card-title">
+                <h5>
+                  BALANCE <br />
+                  YOUR MIND
+                </h5>
+              </div>
+              <p class="card-text">
+                Explicabo aliquam natus adipisci et accusamus? Culpa laudantium
+                maxime et, iure, voluptatum odio aliquid quas?
+              </p>
+            </div>
+          </div>
+          <div
+            class="card py-2 col-lg-3 col-sm-6 bg-transparent border-0 justify-content-center align-items-center"
+          >
+            <img
+              src="./assets/images/ico-04.png"
+              alt="sleep better"
+              class="pt-3 pb-3"
+            />
+            <div class="card-body text-center text-white w-100">
+              <div class="card-title">
+                <h5>
+                  SLEEP <br />
+                  BETTER
+                </h5>
+              </div>
+              <p class="card-text">
+                Explicabo aliquam natus adipisci et accusamus? Culpa laudantium
+                maxime et, iure, voluptatum odio aliquid quas?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="pb-4 row g-0">
+          <div
+            class="card py-2 col-lg-3 col-sm-6 bg-transparent border-0 justify-content-center align-items-center"
+          >
+            <img
+              src="./assets/images/ico-05.png"
+              alt="weight loss"
+              class="pt-3 pb-3"
+            />
+            <div class="card-body text-center text-white w-100">
+              <div class="card-title">
+                <h5>WEIGHT LOSS</h5>
+              </div>
+              <p class="card-text">
+                Explicabo aliquam natus adipisci et accusamus? Culpa laudantium
+                maxime et, iure, voluptatum odio aliquid quas?
+              </p>
+            </div>
+          </div>
+          <div
+            class="card py-2 col-lg-3 col-sm-6 bg-transparent border-0 justify-content-center align-items-center"
+          >
+            <img
+              src="./assets/images/ico-06.png"
+              alt="strengthens your bones"
+              class="p-2"
+            />
+            <div class="card-body text-center text-white w-100">
+              <div class="card-title">
+                <h5>
+                  STRENGTHENS <br />
+                  YOUR BONES
+                </h5>
+              </div>
+              <p class="card-text">
+                Explicabo aliquam natus adipisci et accusamus? Culpa laudantium
+                maxime et, iure, voluptatum odio aliquid quas?
+              </p>
+            </div>
+          </div>
+          <div
+            class="card py-2 col-lg-3 col-sm-6 bg-transparent border-0 justify-content-center align-items-center"
+          >
+            <img
+              src="./assets/images/ico-07.png"
+              alt="increased flexibility"
+              class="px-1 px-md-2"
+            />
+
+            <div class="card-body text-center text-white w-100">
+              <div class="card-title">
+                <h5>
+                  INCREASED <br />
+                  FLEXIBILITY
+                </h5>
+              </div>
+              <p class="card-text">
+                Explicabo aliquam natus adipisci et accusamus? Culpa laudantium
+                maxime et, iure, voluptatum odio aliquid quas?
+              </p>
+            </div>
+          </div>
+          <div
+            class="card py-2 col-lg-3 col-sm-6 bg-transparent border-0 justify-content-center align-items-center"
+          >
+            <img
+              src="./assets/images/ico-08.png"
+              alt="lower bloob pressure"
+              class="pt-3 pb-3"
+            />
+            <div class="card-body text-center text-white w-100">
+              <div class="card-title">
+                <h5>LOWER BLOOD PRESSURE</h5>
+              </div>
+              <p class="card-text">
+                Explicabo aliquam natus adipisci et accusamus? Culpa laudantium
+                maxime et, iure, voluptatum odio aliquid quas?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop-part row g-0">
+        <a id="shop"></a>
+        <div class="d-flex align-items-center flex-wrap p-3">
+          <div class="card border-0 mx-auto my-4 shadow">
+            <div
+              class="card-title d-flex justify-content-center align-items-center"
+            >
+              <p class="p-3 mt-3 fw-bold fs-4">$</p>
+              <h2 class="h_card fw-bold">49</h2>
+              <span class="p-1 mt-4 fw-semi-bold">/ MONTH</span>
+            </div>
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-center m-auto"
+            >
+              <span class="fs-5 p-3">ENTRY DATE: MON - FRI</span>
+              <span class="fs-5 p-3">ENTRY TIME: 8 A.M. - 8 P.M.</span>
+              <span class="fs-5 p-3">NUYRION ADVICER: NO</span>
+              <a
+                href="#reservation "
+                class="btn btn-primary fw-bold mt-3 mb-4 shadow d-flex justify-content-center align-items-center flex-wrap"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <div class="card border-0 mx-auto my-4 shadow">
+            <div
+              class="card-title d-flex justify-content-center align-items-center"
+            >
+              <p class="p-3 mt-3 fw-bold fs-4">$</p>
+              <h2 class="h_card fw-bold">69</h2>
+              <span class="p-1 mt-4 fw-semi-bold">/ MONTH</span>
+            </div>
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-center m-auto"
+            >
+              <span class="fs-5 p-3">ENTRY DATE: MON - FRI</span>
+              <span class="fs-5 p-3">ENTRY TIME: 8 A.M. - 8 P.M.</span>
+              <span class="fs-5 p-3">NUYRION ADVICER: YES</span>
+
+              <a
+                href="#reservation"
+                class="btn btn-primary fw-bold mt-3 mb-4 shadow d-flex justify-content-center align-items-center flex-wrap"
+                >Buy now</a
+              >
+            </div>
+          </div>
+
+          <div class="card border-0 mx-auto my-4 shadow">
+            <div
+              class="card-title d-flex justify-content-center align-items-center"
+            >
+              <p class="p-3 mt-3 fw-bold fs-4">$</p>
+              <h2 class="h_card fw-bold">99</h2>
+              <span class="p-1 mt-4 fw-semi-bold">/ MONTH</span>
+            </div>
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-center m-auto"
+            >
+              <span class="fs-5 p-3">ENTRY DATE: MON - SUN</span>
+              <span class="fs-5 p-3">ENTRY TIME: 8 A.M. - 8 P.M.</span>
+              <span class="fs-5 p-3">NUYRION ADVICER: YES</span>
+
+              <a
+                href="#reservation"
+                class="btn btn-primary fw-bold mt-3 mb-4 shadow d-flex justify-content-center align-items-center flex-wrap"
+                >Buy now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-part flex-wrap">
+      <div class="row p-5 g-0 flex-wrap">
+        <div class="row flex-wrap">
+          <div class="col-md-6 p-0 mb-5">
+            <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h2>ABOUT</h2>
+          </div>
+            <p class="mt-4 pe-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              quasi, expedita officiis iusto nostrum hic labore error corporis
+              neque unde quisquam praesentium corrupti! Quae, harum? Corporis
+              minima voluptatum voluptates fugiat assumenda eius itaque deserunt
+              ratione neque at ullam et debitis quos quisquam quod ea, dolorum
+              odio possimus nesciunt sit cupiditate?
+            </p>
+          </div>
+
+          <div class="col-md-6 p-0">
+            <div
+            class="col-lg-6 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h2>CONTACT US</h2>
+          </div>
+            <div class="row mt-4">
+              <div class="col-lg-6 icomoon-icons d-flex">
+                <span class="footer-part-icon fs-4"></span>
+                <div>
+                  <address class="d-block">
+                    5419 Joseph Mountains <br />
+                    Apt.716
+                  </address>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-3 icomoon_phone d-flex">
+                <span class="footer-part-icon fs-4"></span>
+                <div class="">
+                  <a
+                    href="tel:+123456789"
+                    class="text-white text-decoration-none d-block"
+                    >+1 234 56789</a
+                  >
+                  <a
+                    href="tel:+123467890"
+                    class="text-white text-decoration-none d-block"
+                    >+1 234 67890</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6 mb-3 icomoon_mail d-flex">
+                <span class="footer-part-icon pe-2 fs-4"></span>
+                <a
+                  href="mailto:joga.info@example.com "
+                  class="text-white text-decoration-none"
+                  >joga.info@gmail.com</a
+                >
+              </div>
+              <div class="col-lg-6 mb-3 icomoon-icons d-flex">
+                <span class="footer-part-icon pe-2 fs-4"></span>
+                <a
+                  href="https://www.example.com"
+                  class="text-white text-decoration-none"
+                  target="_blank"
+                  >www.example.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row fs-1 flex-wrap">
+          <div class="col-md-6 mt-4 p-0">
+            <div class=" d-flex align-items-start">
+              <div class="icomoon-icons">
+                <span class="footer-part-icon"></span>
+              </div>
+
+              <div class="icomoon-icons px-4">
+                <span class="footer-part-icon"></span>
+              </div>
+
+              <div class="icomoon-icons">
+                <span class="footer-part-icon"></span>
+              </div>
+
+              <div class="icomoon-icons px-4">
+                <span class="footer-part-icon"></span>
+              </div>
+
+              <div class="icomoon-icons">
+                <span class="footer-part-icon"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer-part-copyright fw-lighter row text-center g-0 flex-wrap"
+      >
+        <p class="my-2 py-4">Copiright © 2023 Yoga classes</p>
+      </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

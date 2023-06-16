@@ -1,0 +1,60 @@
+@import "variables";
+
+.shop-part {
+  min-height: 700px;
+  background-image: url(../../assets/images/bg-03.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-origin: content-box;
+
+  #shop {
+    display: none;
+  }
+
+  .card {
+    min-width: 350px;
+    &-title {
+      height: 120px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: $purple-primary;
+      color: $white-primary;
+
+      h2 {
+        font-size: 400%;
+      }
+    }
+
+    &-body {
+      color: $grey-dark;
+
+      span {
+        position: relative;
+        &:not(:nth-child(3)) {
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40%;
+            height: 1px;
+            background-color: $grey-light;
+          }
+        }
+      }
+
+      .btn {
+        width: 150px;
+        height: 45px;
+        border-radius: 17px !important;
+        background-color: $purple-primary !important;
+        border-color: $purple-primary !important;
+
+        &:hover {
+          filter: brightness(1.2);
+        }
+      }
+    }
+  }
+}
